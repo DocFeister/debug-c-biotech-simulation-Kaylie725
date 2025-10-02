@@ -30,7 +30,7 @@ int main()
         initialBacteria *= reproductionRate;
 
         // Death phase
-        initialBacteria -= deathRate
+        initialBacteria -= deathRate;
 
         // Mutation phase
         int randomValue = rand() % 100;
