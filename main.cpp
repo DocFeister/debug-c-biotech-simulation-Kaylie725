@@ -46,7 +46,7 @@ int main()
             else
             {
                 initialBacteria -= harmfulMutationEffect;
-                std::cout << "Harmful mutation occurred! " << harmfulMutationEffect << " bacteria killed." << std::end1;
+                std::cout << "Harmful mutation occurred! " << harmfulMutationEffect << " bacteria killed." << std::endl;
             }
         }
 
