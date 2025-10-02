@@ -51,7 +51,7 @@ int main()
         }
 
         // Ensure population doesn't drop below zero
-        if (initialBacteria < 0;
+        if (initialBacteria < 0)
         {
             initialBacteria = 0;
         }
