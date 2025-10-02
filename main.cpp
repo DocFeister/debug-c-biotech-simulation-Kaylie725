@@ -27,7 +27,7 @@ int main()
     for (int i = 0; i < cycles; i++)
     {
         // Reproduction phase
-        initialBacteria *= reproductionRate
+        initialBacteria *= reproductionRate;
 
         // Death phase
         initialBacteria -= deathRate
