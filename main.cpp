@@ -57,7 +57,7 @@ int main()
         }
 
         // Print the population after each cycle
-        std::cout << "Cycle " << i + 1 << ": " << initialBacteria << " bacteria" << std:endl;
+        std::cout << "Cycle " << i + 1 << ": " << initialBacteria << " bacteria" << std::endl;
     }
 
     // Check if the population has been wiped out
