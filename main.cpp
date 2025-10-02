@@ -67,7 +67,7 @@ int main()
     }
     else
     {
-        std::cout << "After " << cycles << " cycles, " << initialBacteria > " bacteria remain." << std::endl; // Intentional operator error
+        std::cout << "After " << cycles << " cycles, " << initialBacteria << " bacteria remain." << std::endl; // Intentional operator error
     }
 
     return 0;
