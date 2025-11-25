@@ -16,13 +16,15 @@ int main()
 {
     srand(time(0)); // Seed the random number generator
 
+    //double used for a smaller level of precision as bacteria exponentially grows
     double initialBacteria = 1000; // Starting population of bacteria (should be initialized to 1000)
     int reproductionRate = 3; // Each bacterium reproduces three times per cycle
     int deathRate = 400; // Bacteria that die per cycle
     int mutationChance = 10; // Chance (in percentage) of mutation occurring
     int mutationEffect = 100; // Additional bacteria produced due to beneficial mutation
     int harmfulMutationEffect = 200; // Bacteria killed due to harmful mutation
-    int cycles = 15; // Number of cycles to simulate
+    //cycles changed to 50 to see more errors as time goes on
+    int cycles = 50; // Number of cycles to simulate
 
     for (int i = 0; i < cycles; i++)
     {
